@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lat to Cyr</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="text-center">Latin to Cyril & Cyril to Latin Convertor</h1>
+      <form id="myForm">
+        <div class="d-md-flex justify-content-between">
+          <div class="form-group col-sm-10 col-md-6 m-3">
+            <textarea
+              class="form-control"
+              id="text1"
+              rows="5"
+              placeholder="Enter your text..."
+            ></textarea>
+          </div>
+
+          <div class="form-group col-sm-10 col-md-6 m-3">
+            <textarea
+              class="form-control"
+              id="text2"
+              rows="5"
+              placeholder="Converted text"
+            ></textarea>
+          </div>
+        </div>
+
+        <div class="d-flex justify-content-between">
+          <button type="submit" class="btn btn-primary mt-3" id="convert">
+            <img
+              src="./repeat-2-line.png"
+              alt=""
+              width="18"
+              style="vertical-align: middle"
+            />
+            Convert
+          </button>
+          <button
+            type="button"
+            class="btn btn-danger mt-3"
+            onclick="resetForm()"
+          >
+            <i class="far fa-trash-alt"></i> Reset
+          </button>
+          <button type="button" class="btn btn-success mt-3" id="copy">
+            <i class="far fa-copy"></i> Copy
+          </button>
+        </div>
+      </form>
+    </div>
+
+    <footer>
+      <p class="text-center">
+        &copy; <a href="https://t.me/saidalikhansobirov">saidalixon.uz</a>
+      </p>
+    </footer>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

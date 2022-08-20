@@ -1,0 +1,20 @@
+{
+  "name": "lotin-kiril",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "lotin",
+    "krill",
+    "convertor"
+  ],
+  "author": "Saidalixon Sobirov",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.0",
+    "font-awesome": "^4.7.0"
+  }
+}

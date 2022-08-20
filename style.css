@@ -1,0 +1,12 @@
+body {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  background-color: blue;
+}
+
+footer {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
