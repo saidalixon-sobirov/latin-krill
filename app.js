@@ -15,8 +15,10 @@ function resetForm() {
 form.addEventListener("submit", (e) => {
   e.preventDefault();
   const val1 = text1.value;
+  const noSpace = val1.replace(/ /g, "");
+  const a = noSpace.match(/\D/g);
 
-  if (val1.charCodeAt(0) >= 65 && val1.charCodeAt(0) <= 122) {
+  if (a[0].charCodeAt(0) >= 65 && a[0].charCodeAt(0) <= 122) {
     text2.value = replaceTxt(val1);
   } else {
     text2.value = replaceTxt2(val1);
