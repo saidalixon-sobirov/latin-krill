@@ -105,18 +105,19 @@ form.addEventListener("submit", (e) => {
     txt = txt.replace(/Y/g, "Й");
     txt = txt.replace(/Z/g, "З");
 
-    txt = txt.replace(/йа/g, "я");
-    txt = txt.replace(/йо/g, "ё");
-    txt = txt.replace(/йу/g, "ю");
-    txt = txt.replace(/тс/g, "ц");
-    txt = txt.replace(/ЙА/g, "Я");
-    txt = txt.replace(/ЙО/g, "Ё");
-    txt = txt.replace(/ЙУ/g, "Ю");
-    txt = txt.replace(/ТС/g, "Ц");
-    txt = txt.replace(/Йа/g, "Я");
-    txt = txt.replace(/Yе/g, "Йе");
-    txt = txt.replace(/Йу/g, "Ю");
-    txt = txt.replace(/Тс/g, "Ц");
+    txt = txt.replace(/ya/g, "я");
+    txt = txt.replace(/yo/g, "ё");
+    txt = txt.replace(/yu/g, "ю");
+    txt = txt.replace(/ts/g, "ц");
+    txt = txt.replace(/Ya/g, "Я");
+    txt = txt.replace(/YA/g, "Я");
+    txt = txt.replace(/YO/g, "Ё");
+    txt = txt.replace(/Yo/g, "Ё");
+    txt = txt.replace(/Yu/g, "Ю");
+    txt = txt.replace(/YU/g, "Ю");
+    txt = txt.replace(/TS/g, "Ц");
+    txt = txt.replace(/Ts/g, "Ц");
+    txt = txt.replace(/Yе/g, "Е");
 
     txt = txt.replace(/\n /g, "\n");
     return txt;
